@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 160px;
+  height: auto;
+  display: block;
+}
+.heading p {
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: #333;
+  margin: 30px 30px;
+}
+
+form {
+  padding: 22px 22px 26px;
+  width: 430px;
+  height: 440px;
+  /* background: var(--form-bg); */
+  transform: translateY(20px);
+  background-color: #fff;
+  border-radius: 10px;
+  /* border: 1px solid #ccc; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.create-password {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0000;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+}
+.create-password:hover {
+  color: #0056b3;
+}
+h1 {
+  font-size: 20px;
+  color: #0a0a0a;
+  margin: 0 0 8px;
+}
+p {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 18px;
+}
+
+label {
+  font-size: 14px;
+  color: #010101;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 12px 42px 12px 12px;
+  font-size: 14px;
+  width: 100%;
+}
+.portion {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+
+  align-items: center;
+  /* gap: 135px; */
+  padding: 14px 8px;
+  /* margin-top: 20px; */
+}
+.portion input {
+  width: 300px;
+  height: 70px;
+  padding: 10px;
+}
+
+.checkbox {
+  display: flex;
+}
+#checkbox {
+  width: 17px;
+  height: 24px;
+  gap: 10px;
+}
+.main-check {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.forgot {
+  color: #0056b3;
+}
+button {
+  /* margin-top: 20px; */
+  padding: 12px;
+  font-size: 16px;
+  background-color:#0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003d80;
+}
