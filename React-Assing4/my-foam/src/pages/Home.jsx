@@ -43,12 +43,15 @@ export default function Home() {
           onChange={(e) => setText(e.target.value)}
         />
         <label htmlFor="">Password *</label>
-        <input
+         <div className="input"><input
           type="password"
+          id="password"
           placeholder="Enter Your Password"
           onChange={(e) => setPassword(e.target.value)}
-        />
-        <div className="main-check">
+          
+        /> <input type="button" className="show-password" value="Show"   
+        /> </div>
+        <div className="main-check"> 
         <div className="checkbox">
           <input 
             type="checkbox"
