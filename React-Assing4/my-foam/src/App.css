@@ -81,13 +81,49 @@ label {
   margin-bottom: 8px;
   font-weight: 600;
 }
-input {
+#text {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 12px 42px 12px 12px;
   font-size: 14px;
   width: 100%;
 }
+input{
+  border:none;
+  background: none;
+}
+.input {
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ padding: 12px 20px 12px 12px;
+ font-size: 14px;
+ width: 100%;
+  position: relative;
+
+}
+.show-password{
+  position: absolute;
+  right: 30px;
+  
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  opacity: 0.9;
+  margin-top: 6px;
+  
+}
+.show-password:hover {
+  opacity: 1;
+  border:none;
+  background: none;
+  color:black;
+
+}
+
 .portion {
   display: flex;
   /* flex-direction: column; */
